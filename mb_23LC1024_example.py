@@ -26,7 +26,7 @@ To use:
         8(Vcc)   |   3V3 OUT, (Pin 36)
 
 - To write a value: memory.write_byte(address, value)
-- To read a value: value = memory.read_byte = memory.read(address)
+- To read a value: value = memory.read_byte(address)
 - You should get an error if the address or value is out of range.
 
 """
